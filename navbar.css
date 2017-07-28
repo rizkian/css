@@ -1,0 +1,92 @@
+/* navbar */
+.navbar-default {
+    background-color: #D93434;
+    border-color: #FE2E2E;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #FFF;
+    padding-top: 0px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+.navbar .navbar-brand img {
+width:150px;
+height:50px;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #A4A4A4;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    font-weight: BOLD;
+    color: #FFF;
+    background-color: #FE2E2E;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #FFF;
+    background-color: #FE2E2E;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #A4A4A4;
+    border-bottom-color: #A4A4A4;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FF0000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #FFF;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+.input-group-addon {
+    background-color: #D93434; 
+    color: #FFFFFF; 
+    border:1px solid #D93434; 
+}
+    .form-control {
+    color: #B40404; border:1px solid #D93434;
+}
+a:active{
+    text-decoration:none;
+    border:0px;
+    -moz-outline-style:none;
+}
+a:focus{
+    outline:none;
+    -moz-outline-style:none;
+}
